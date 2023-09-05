@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:aquamarine
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1{
+    align-self: center;
+    font-size: 4vw;
+}
+
+#pic{
+    margin-top: 3vw;
+}
+
+input, label{
+    align-self: center;
+    font-size: x-large;
+}
+
+img{
+    width: 20vw;
+    height: 15vw;
+}
+
+form{
+    align-self: center;
+    margin:-12vw 0 0 10vw;
+}
+
+h2{
+    align-self: center;
+    margin-top: 15vw;
+}
+
+button{
+    width: 10vw;
+    align-self: center;
+    font-size: x-large;
+    background-color: black;
+    border: black;
+    color: white;
+}
+
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+.foter{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vw;
+}
